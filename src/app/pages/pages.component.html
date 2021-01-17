@@ -1,0 +1,36 @@
+<div id="main-wrapper">
+    <app-header></app-header>
+  
+    <app-sidebar></app-sidebar>
+    <div class="page-wrapper">
+      <div class="container-fluid">
+        <!-- BREADCUMBS -->
+        <app-breadcumbs></app-breadcumbs>
+  
+        <!-- Sistema de Rutas -->
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <router-outlet></router-outlet>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End PAge Content -->
+        <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- footer -->
+      <!-- ============================================================== -->
+      <footer class="footer text-center">© 2021 Hebe estética coorporal by <i>Matias E. Navarrete</i></footer>
+      <!-- ============================================================== -->
+      <!-- End footer -->
+      <!-- ============================================================== -->
+    </div>
+  </div>
+  
